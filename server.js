@@ -28,7 +28,7 @@ app.post('/create-qr', async (req, res) => {
       amount: amount * 100, // In paise (INR * 100)
       currency: 'INR',
       receipt: orderId,
-      notes: { vending: 'CUTM-AP Machine' },
+      notes: { vending: 'ANJALIII' },
     });
 
     // Generate UPI intent string (using Razorpay's default VPA or customize with your VPA)
